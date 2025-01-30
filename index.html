@@ -10,18 +10,87 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/8733ac514e.js" crossorigin="anonymous"></script>
     <title>groceries-shop</title>
     <style type="text/tailwindcss">
         @theme {
           --color-clifford: #da373d;
+          --color-text: #111111;
+          --color-accent: #E7A500;
+          --font-sora:"Sora", serif;
         }
       </style>
 </head>
 
-<body>
-    <header>
+<body class="font-sora">
+    <div class="w-full" style=" background: linear-gradient(180.00deg, rgb(255, 255, 255),rgb(239, 235, 227) 100%);">
+        <header class="w-6/7 mx-auto">
+            <!-- nav section -->
 
-    </header>
+            <nav class="mb-12 border-b border-yellow-300 lg:border-none">
+                <div class="navbar bg-base-100 flex  space-y-2 md:flex-row justify-center items-center">
+                    <div class="navbar-start mt-4">
+
+                        <img src="c2-assets/logo-header.png" alt="" />
+                    </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-text text-xl">
+                            <li><a>Product </a></li>
+                            <li>
+                                <a>Services</a>
+                            </li>
+                            <li>
+                                <a>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navbar-end space-x-3">
+                        <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+                        <i class="fa-solid fa-cart-shopping hidden lg:block"></i>
+                        <button class="btn btn-outline  hidden lg:block">Log In</button>
+                        <button class="btn btn-warning hidden lg:block">Register</button>
+                        <div class="dropdown">
+                            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none"
+                                    viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M4 6h16M4 12h8m-8 6h16" />
+                                </svg>
+                            </div>
+                            <ul tabindex="0"
+                                class="menu menu-xl dropdown-content bg-base-100 rounded-box z-[1] mt-3 mr-3  shadow">
+                                <li>
+                                    <a>Product </a>
+                                </li>
+                                <li>
+                                    <a>Services</a>
+                                </li>
+                                <li>
+                                    <a>Contact Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- nav end -->
+            <!-- banner start -->
+            <div class="flex flex-col justify-center items-center mt-20">
+                <div class="lg:px-40 xl:px-80 md:px-20 text-center">
+                    <h1 class=" text-2xl lg:text-5xl md:text-5xl font-semibold mb-8">Freshness <span
+                            class="text-yellow-400">
+                            You Can <br>
+                            Count </span> On, Prices You’ll Love!</h1>
+                    <p class="text-base lg:text-2xl mb-9">Shop your daily essentials at unbeatable prices. From fresh
+                        produce to pantry
+                        staples, we’ve got you
+                        covered every day!</p>
+                </div>
+                <img src="c2-assets/hero-vegetables.png" alt="">
+            </div>
+        </header>
+    </div>
     <main>
 
     </main>
