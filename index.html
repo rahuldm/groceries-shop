@@ -14,6 +14,7 @@
     <title>groceries-shop</title>
     <style type="text/tailwindcss">
         @theme {
+          --breakpoint-s: 26rem;
           --color-clifford: #da373d;
           --color-text: #111111;
           --color-accent: #179800;
@@ -45,7 +46,7 @@
                         </ul>
                     </div>
                     <div class="navbar-end space-x-3">
-                        <i class="fa-solid fa-magnifying-glass hidden lg:block"></i>
+                        <i class="fa-solid fa-magnifying-glass hidden lg:block lg:pl-3"></i>
                         <i class="fa-solid fa-cart-shopping hidden lg:block"></i>
                         <button class="btn btn-outline  hidden lg:block">Log In</button>
                         <button class="btn btn-warning hidden lg:block">Register</button>
@@ -93,9 +94,9 @@
     </div>
     <main>
         <!-- service section star -->
-        <section class="w-6/7 mx-auto mb-[140px]">
+        <section class="w-6/7 mx-auto pt-36 pb-36">
             <div>
-                <h1 class="text-[#179800] text-3xl mt-32 mb-12">Services</h1>
+                <h1 class="text-[#179800] text-3xl  mb-12">Services</h1>
                 <!-- card section  -->
                 <div class="lg:flex justify-between gap-6  ">
                     <!-- card 1 -->
@@ -146,9 +147,9 @@
                 </div>
             </div>
         </section>
-        <!-- section -->
-        <section class="w-full pt-36 pb-10" style=" background: #EFEBE3 ">
-            <div class="w-6/7 mx-auto ">
+        <!--popular section -->
+        <section class="w-full pt-36 pb-36" style=" background: #EFEBE3 ">
+            <div class="w-6/7 mx-auto">
                 <h1 class="text-[#179800] text-3xl  mb-12 ">Popular Products</h1>
 
                 <!-- grid -->
@@ -184,11 +185,11 @@
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/tomato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Tomato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
@@ -196,15 +197,16 @@
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/potato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Potato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
                     </div>
+                    <!-- small card -->
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
@@ -212,7 +214,7 @@
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class=" text-xl font-bold">Onion 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
@@ -220,11 +222,11 @@
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/tomato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Tomato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
@@ -232,15 +234,16 @@
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/potato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Potato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
                     </div>
+                    <!-- small card -->
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
@@ -248,7 +251,7 @@
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class=" text-xl font-bold">Onion 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
@@ -256,28 +259,97 @@
                     <div class="flex items-center justify-center h-full w-full">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/tomato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Tomato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="items-center justify-center h-full w-full hidden lg:block">
+                    <div class=" items-center justify-center h-full w-full hidden lg:block">
                         <div class="bg-white border rounded-xl flex items-center px-4 py-4 w-full">
                             <div class="h-20 w-20 bg-[#EFEBE3] rounded-xl mr-4 flex justify-center items-center">
-                                <img src="c2-assets/onion.png" alt="">
+                                <img src="c2-assets/potato.png" alt="">
                             </div>
                             <div>
                                 <p><i class="fa-duotone fa-solid fa-star text-yellow-400"></i> 4.5</p>
-                                <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                                <h1 class="text-xl font-bold">Potato 1 KG</h1>
                                 <h3 class="font-medium">$39.99</h3>
                             </div>
                         </div>
                     </div>
 
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- arrival and offer section -->
+        <section class="w-6/7 mx-auto pt-36 pb-36">
+            <div>
+                <h1 class="text-[#179800] text-3xl  mb-12 ">Arrival & Offers</h1>
+                <!-- card container -->
+                <div class="lg:flex gap-4">
+                    <!-- single card -->
+                    <div
+                        class="bg-[#115414] rounded-3xl flex  items-end justify-start xl:justify-between lg:flex-1 px-3 py-3 mb-5">
+                        <div class=" pt-1 text-start  md:pb-10 s:pb-4 xl:pl-5">
+                            <img class=" mb-2 w-2/3 h-2/3 md:mb-7 md:w-full md:h-full" src="c2-assets/dawat-logo.png"
+                                alt="">
+                            <p
+                                class="py-3 px-2  md:mb-7 text-center rounded-xl  bg-[#63B76D] border-none text-xs md:text-2xl lg:text-2xl text-white font-normal">
+                                Cook
+                                Exotic
+                                Dishes</p>
+                            <h1 class="mb-2 text-xl md:text-4xl lg:text-2xl text-white font-normal">UP to <span
+                                    class="font-bold">20%
+                                    OFF</span></h1>
+                        </div>
+                        <div class="pt-8 w-auto h-auto flex justify-end ">
+                            <img src="c2-assets/dawat-mock-up.png" alt="">
+                        </div>
+
+                    </div>
+                    <div
+                        class="bg-[#102861] rounded-3xl flex  items-end lg:w-2/5 justify-start  md:gap-28 lg:gap-3 xl:gap-2  px-3 py-3 mb-5">
+                        <div class=" pt-1  md:pb-10 s:pb-7 xl:pl-5 xl:w-3/4 2xl:w-2/4">
+                            <img class="mb-2 w-2/3 h-2/3 xl:h-auto xl:w-auto lg:mb-2 md:w-2/5  "
+                                src="c2-assets/india-gate-logo.png" alt="">
+                            <p
+                                class="  bg-[#2A4D97] py-3 px-2 md:mb-7 lg:mb-3 text-center rounded-xl   border-none text-xs md:text-2xl lg:text-2xl text-white font-normal ">
+                                World’s
+                                No.1 Rice</p>
+                            <h1 class="mb-2 text-xl md:text-4xl lg:text-2xl text-white font-normal">Up to <span
+                                    class="font-bold">20%
+                                    OFF</span></h1>
+                        </div>
+                        <div class="pt-8 h-auto w-auto  flex justify-end xl:w-2/4 2xl:w-2/4 2xl:pr-5">
+                            <img src="c2-assets/india-gate-mock-up.png" alt="">
+                        </div>
+
+
+                    </div>
+                    <!-- <div class="lg:flex gap-4">
+                               
+                            <div class="bg-[#115414] rounded-3xl flex justify-around items-end flex-1 px-3 py-3 mb-5">
+                                <div class=" text-start ">
+                                    <img class="mb-7" src="c2-assets/dawat-logo.png" alt="">
+                                    <button class="  mb-7 btn bg-[#63B76D] border-none text-2xl text-white font-normal">Cook
+                                        Exotic
+                                        Dishes</button>
+                                    <h1 class="  text-white font-normal">UP to <span class="font-bold">20%
+                                            OFF</span></h1>
+                                </div>
+                                <div class="pt-8">
+                                    <img src="c2-assets/dawat-mock-up.png" alt="">
+                                </div>
+        
+                            </div> -->
+
+                    <!-- single card -->
 
 
                 </div>
